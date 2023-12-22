@@ -1,0 +1,13 @@
+name: klamathar
+title:
+username: lucyrandrews
+account: lucyrandrews
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10840916
+bundleId: 8077563
+url: https://lucyrandrews.shinyapps.io/klamathar/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: archive/thunderforest_basemap.R

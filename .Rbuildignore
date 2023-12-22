@@ -1,3 +1,6 @@
 ^klamathAR\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+
+**/nhdplus_dir/
+**/archive/
