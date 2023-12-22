@@ -93,8 +93,6 @@ server <- function(input, output, session) {
         } else {
           if (basemap == "esri") {
             "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          } else {
-            paste0("https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=", Sys.getenv("THUNDERFOREST_API_KEY"))
           }
         },
         attribution = if (basemap == "opentopomap") {
@@ -102,8 +100,6 @@ server <- function(input, output, session) {
         } else {
           if (basemap == "esri") {
             'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-          } else {
-            'Map data &copy; <a href="https://www.thunderforest.com/">Thunderforest</a>'
           }
         }
       )
