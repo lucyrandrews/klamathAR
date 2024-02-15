@@ -41,7 +41,7 @@ ui <- fluidPage(
                choices = c(
                  "Aerial image" = "esri",
                  "OpenTopoMap" = "opentopomap"
-               )), # Add OpenTopoMap option
+               )),
   leafletOutput("map"),
   dataTableOutput("data_table")
 )
